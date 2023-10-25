@@ -1,0 +1,53 @@
+:root {
+  --lightblue: #a0d2eb;
+  --white: #e5eaf5;
+  --purple: #8458b3;
+  --blue: #494d5f;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+p,
+form,
+h1 {
+  text-align: center;
+}
+
+h1 {
+  color: var(--lightblue);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 8px;
+  font-size: 50px;
+  -webkit-text-stroke: 2px var(--blue);
+  background-image: linear-gradient(to right bottom, #a0d2eb, #8458b3);
+  display: table;
+  margin: 0px auto 0px auto;
+  padding: 1em;
+  border-radius: 93em;
+}
+
+p {
+  color: var(--white);
+  font-family: sans-serif;
+}
+
+/* button style https://css-tricks.com/css-ing-candy-ghost-buttons/ */
+button {
+  border: solid 0.25em transparent;
+  padding: 1em;
+  border-radius: 9em;
+  background: linear-gradient(to right bottom, var(--slist)) border-box;
+  font: sans-serif;
+  text-transform: uppercase;
+
+  &::after {
+    content: attr(data-ico);
+  }
+}
+
+input {
+  width: 35em;
+  height: 3em;
+}
