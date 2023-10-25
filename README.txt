@@ -1,0 +1,1 @@
+Enter in a search term to get a random gif related to your search term.  You could also just hit enter to recieve a random gif!
